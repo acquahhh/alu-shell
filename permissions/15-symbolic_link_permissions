@@ -1,2 +1,2 @@
 #!/bin/bash
-sud chown vincent:staff _hello
+sudo chown vincent:staff _hello
