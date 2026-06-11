@@ -1,6 +1,17 @@
 # loops_conditions_and_parsing
 
-ALU Bash scripting project: loops, conditions, and parsing.
+ALU Bash scripting project covering loops, conditions, and parsing.
+
+## Description
+
+This directory contains shell scripts written in Bash that demonstrate
+loops (for, while, until), conditional statements (if, elif, else, case),
+and text parsing using standard Unix tools (cut, awk, sort, uniq).
+
+All scripts:
+- Start with `#!/usr/bin/env bash`
+- Are executable
+- Pass shellcheck where applicable
 
 ## Files
 
@@ -20,3 +31,7 @@ ALU Bash scripting project: loops, conditions, and parsing.
 | 12-tell_the_story_of_passwd | Pretty-prints /etc/passwd |
 | 13-lets_parse_apache_logs | Apache log → IP and HTTP status |
 | 14-dig_the-data | Apache log → counted, sorted IP+status pairs |
+
+## Author
+
+ALU Software Engineering Student

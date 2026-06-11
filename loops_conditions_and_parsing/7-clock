@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
-# Prints hours 0..12, minutes 0..59, and seconds 0..59 using for loops.
-for h in $(seq 0 12); do
-	echo "$h"
+for h in {0..12}
+do
+    echo $h
 done
-for m in $(seq 0 59); do
-	echo "$m"
-done
-for s in $(seq 0 59); do
-	echo "$s"
+for m in {0..59}
+do
+    echo $m
 done

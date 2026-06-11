@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# Prints the username, user id, and home directory from /etc/passwd.
 cut -d':' -f1,3,6 /etc/passwd
