@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-for file in *
-do 
-echo "$file" | cut -d "-" -f -2
+# Lists files in the current directory and prints everything after the first '-'.
+for file in *; do
+	[ -e "$file" ] || continue
+	case "$file" in
+		.*) continue ;;
+	esac
+	echo "$file" | cut -d'-' -f2-
 done

@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
-hour=0
-while [ "$hour" -le 12 ]
-do 
-echo "Hour: $hour"
-minute=1
-while [ "$minute" -le 59 ]
-do 
-echo "$minute"
-minute=$((minute + 1))
+# Prints hours 0..12, minutes 0..59, and seconds 0..59 using for loops.
+for h in $(seq 0 12); do
+	echo "$h"
 done
-hour=$((hour + 1))
+for m in $(seq 0 59); do
+	echo "$m"
+done
+for s in $(seq 0 59); do
+	echo "$s"
 done
