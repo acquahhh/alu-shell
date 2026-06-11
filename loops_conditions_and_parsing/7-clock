@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# Prints hours (0..12) and minutes (0..59) using while loops.
-h=0
-while [ $h -le 12 ]
+# This script displays a clock with hours 0 to 12 and minutes 1 to 59
+hour=0
+while [ "$hour" -le 12 ]
 do
-    echo "Hour: $h"
-    m=0
-    while [ $m -le 59 ]
+    echo "Hour: $hour"
+    minute=1
+    while [ "$minute" -le 59 ]
     do
-        echo $m
-        m=$((m + 1))
+        echo "$minute"
+        minute=$((minute + 1))
     done
-    h=$((h + 1))
+    hour=$((hour + 1))
 done
