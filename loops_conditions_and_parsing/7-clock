@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Prints hours 0..12 and minutes 0..59 using for loops.
 for h in {0..12}
 do
     echo $h

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Prints FizzBuzz from 1 to 100, separated by spaces on a single line.
 for i in {1..100}
 do
     if [ $((i % 15)) -eq 0 ]

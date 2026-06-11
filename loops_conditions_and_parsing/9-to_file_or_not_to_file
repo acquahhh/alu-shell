@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Describes the state of the file "school" in the current directory.
 if [ -e school ]
 then
     echo "school file exists"
